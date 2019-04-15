@@ -1,10 +1,18 @@
-# Paper-list-190220    
+# Paper-list-190415    
 
-Detection:
+SiamRPN 系列:
 -----------------
-[Grid R-CNN](https://arxiv.org/pdf/1811.12030.pdf)
+[SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_High_Performance_Visual_CVPR_2018_paper.pdf)
 
-[An Introduction to Deep Reinforcement Learning](https://arxiv.org/abs/1811.12560)
+[Da-SiamRPN](http://openaccess.thecvf.com/content_ECCV_2018/papers/Zheng_Zhu_Distractor-aware_Siamese_Networks_ECCV_2018_paper.pdf)
+
+[SiamRPN++](https://arxiv.org/pdf/1812.11703.pdf)
+
+[CIR](https://arxiv.org/pdf/1901.01660.pdf)
+
+[SiamMask](https://arxiv.org/pdf/1812.05050.pdf)
+
+[C-RPN](https://arxiv.org/pdf/1812.06148.pdf)
 
 Tutorial
 -----------------
