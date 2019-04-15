@@ -10,10 +10,11 @@
 
 [Da-SiamRPN](http://openaccess.thecvf.com/content_ECCV_2018/papers/Zheng_Zhu_Distractor-aware_Siamese_Networks_ECCV_2018_paper.pdf)
 
-**出发点**：SiamRPN和SiameseFC的共同问题是，对类间干扰的抵抗能力差。
+**出发点**：SiamRPN和SiameseFC的共同问题是，对类间干扰的抵抗能力差；通用表达空间与特别物体表达空间的不一致性。
 
 **贡献**： a) Distractor-aware Training; b) Incremental Learning; c) Long-term 
-主要的贡献就是在训练网络时引入了同类和不同类（来自不同视频目标）的负样本对，为扩大样本中所包含的物体类别数量，增加两个训练数据库。
+在训练网络时引入了同类和不同类（来自不同视频目标）的负样本对，为扩大样本中所包含的物体类别数量，增加两个训练数据库，数据增广技巧有所改善。
+选择最终目标框时，利用增量学习的方法。
 
 [SiamRPN++](https://arxiv.org/pdf/1812.11703.pdf)
 
