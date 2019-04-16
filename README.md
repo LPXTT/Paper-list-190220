@@ -28,10 +28,13 @@
 **影响深度网络应用的因素**：感受野、步长和补充（receptive field size, network stride and feature padding)  
                         1) 步长4或8比较合适  
                         2）感受野为原来输入目标图像的0.6-0.8较为合适  
-                        3）padding 对最终效果有不好的影响 *原因在于：模板特征是原目标加padding部分，而搜索区域上对应匹配的图像块有的加padding                           部分，有的加背景图像部分;目标移动到图像边界时，顶峰无法反映目标位置* ？？我觉着吧，这个应该影响不大吧。  
+                        3）padding 对最终效果有不好的影响 *原因在于：模板特征是原目标加padding部分，而搜索区域上对应匹配的图像块有的加padding                           部分，有的加背景图像部分;目标移动到图像边界时，顶峰无法反映目标位置* ？？应该影响不大吧。  
 
-[SiamMask](https://arxiv.org/pdf/1812.05050.pdf)
+[SiamMask](https://arxiv.org/pdf/1812.05050.pdf)  
+**出发点**：跟踪任务与分割任务放到一起去做。
+**贡献**：孪生网络加分割（2个卷积层）支路。
 
+### CVPR 2019:###
 [C-RPN](https://arxiv.org/pdf/1812.06148.pdf)
 
 Tutorial
