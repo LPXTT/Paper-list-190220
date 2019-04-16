@@ -2,8 +2,9 @@
 
 
 ## Single Object Tracking
------------------
+
 ### SiamRPN 系列:
+-----------------
 
 [SiamRPN](http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_High_Performance_Visual_CVPR_2018_paper.pdf)
 
@@ -35,9 +36,17 @@
 **出发点**：跟踪任务与分割任务放到一起去做。
 **贡献**：孪生网络加分割（2个卷积层）支路。
 
------------------
+
 ### CVPR 2019:
-[C-RPN](https://arxiv.org/pdf/1812.06148.pdf)
+-----------------
+
+[C-RPN](https://arxiv.org/pdf/1812.06148.pdf)  
+**贡献**： 多个RPN（训练层级删选难的负样本训练高层RPN，跟踪由粗到细优化目标框）；多层特征（特征转换模块融合不同特征）
+**出发点**：  
+1）SiamRPN对同类语义干扰不敏感原因：正负训练样本不匹配+大部分负样本为容易判别的负样本   
+2）底层特征没有得到充分利用  
+
+
 
 Tutorial
 -----------------
