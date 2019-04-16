@@ -19,6 +19,10 @@
 
 [SiamRPN++](https://arxiv.org/pdf/1812.11703.pdf)
 
+**出发点**： 利用更加深层的网络；
+
+**贡献**：1）深层网络缺少位移不变性限制；
+
 [CIR](https://arxiv.org/pdf/1901.01660.pdf)
 
 [SiamMask](https://arxiv.org/pdf/1812.05050.pdf)
