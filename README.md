@@ -68,6 +68,14 @@
 2）FM:特征级联+精细化的RPN结构，输出匹配得分和匹配位移而非响应图。
 >>这篇论文与C-RPN思路有些像，不同点在于该论文级联RPN数量较少（2个），最后一个RPN输出匹配得分和位置而不是图像。用的网络模型更小，精度差不多的情况下速度更快。总的看上去比C-RPN更加精细一些。
 
+[TADT](https://arxiv.org/pdf/1904.01772.pdf)　　
+**出发点**：  
+提取目标感知特征用于在线跟踪  
+**贡献**：  
+提出两个损失（regression and rank loss)计算梯度信息，提取目标感知的卷积核通道，得到目标感知的特征。 
+**主要模块**：  
+该论文利用梯度信息弥补通用分类特征与目标跟踪特征存在差别的问题，效果不是特别好但思路挺新颖。
+
 Tutorial
 -----------------
 [莫烦python](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/)
